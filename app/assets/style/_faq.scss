@@ -1,0 +1,68 @@
+.faq-content{
+    padding-top: 96px;
+    padding-bottom: 128px;
+    @include pad{
+        padding-top: 60px;
+        padding-bottom: 72px;
+    }
+    @include mobile{
+        padding-top: 28px;
+        padding-bottom: 36px;
+    }
+}
+.title{
+    font-size: 48px;
+    line-height: 80px;
+    padding-left: 16px;
+    margin-bottom: 60px;
+    border-left: 8px solid #9F1213;
+    margin-bottom: 60px;
+    @include pad{
+        margin-bottom: 40px;
+    }
+    @include mobile{
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+}
+.faq-content h2{
+    font-size: 32px;
+    line-height: 63px;
+    margin-bottom: 36px;
+    @include pad{
+        margin-bottom: 32px;
+    }
+    @include mobile{
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+}
+.faq-section {
+    margin-bottom: 32px;
+    @include pad{
+        margin-bottom: 24px;
+    }
+    @include mobile{
+        margin-bottom: 20px;
+    }
+}
+.faq-section h3{
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 16px;
+
+    @include mobile{
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+}
+.faq-section p{
+    max-width: 920px;
+    margin: 0 auto;
+    line-height: 24px;
+    @include mobile{
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

@@ -1,0 +1,175 @@
+
+.storelocation-content{ 
+    padding-top: 96px;
+    padding-bottom: 128px;
+    @include pad{
+        padding-top: 60px;
+        padding-bottom: 76px;
+    }
+    @include mobile{
+        padding-top: 28px;
+        padding-bottom: 40px;
+    }
+}
+.select-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    @include pad{
+        margin-bottom: 24px;
+    }
+    @include mobile{
+        margin-bottom: 20px;
+    }
+}
+.label-title{
+    font-size: 24px;
+    line-height: 30px;
+    margin-right: 20px;
+    display: block;
+    @include pad{
+        // width: 67px;
+        font-size: 16px;
+        margin-right: 12px;
+    }
+    @include mobile{
+        width: 77px;
+        font-size: 14px;
+    }
+}
+.select-option{
+    width: 324px;
+    height: 45px;
+    font-size: 18px;
+    color: #495057;
+    @include pad{
+        height: 46px;
+    }
+    @include mobile{
+        height: 36px;
+    }
+}
+.storebranch-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.storebranch-info{
+    width: 33.33%;
+    padding: 0 15px;
+    // margin-right: 2%;
+    margin-bottom: 32px;
+    @include pad{
+        margin-bottom: 20px;
+        width: 50%;
+    }
+    @include mobile{
+        width: 100%;
+        margin-right: 0;
+    }
+}
+.storebranch-photo{
+    height: 224px;
+
+}
+.storebranch-info h2{
+    font-size: 24px;
+    line-height: 36px;
+    border: 1px solid #00000020;
+    padding-left: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    @include pad{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    // padding-top: 12px;
+    // padding-bottom: 12px;
+}
+.storebranch-detail-info{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    border: 1px solid #00000020;
+}
+
+.storebranch-list li{
+    display: flex;
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 30px;
+    @include pad{
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+.storebranch-list img{
+    width: 18px;
+    height: 30px;
+    margin-right: 11px;
+    @include pad{
+        width: 15px;
+        height: 21px;
+    }
+}
+.storebranch-more{
+    display: block;
+    font-size: 19px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 20px;
+    @include pad{
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+// .tellphoe-icon{
+//     max-width: 18px;
+//     height: 18px;
+//     margin-right: 11px;
+// }
+// .clock-icon{
+//     max-width: 20px;
+//     height: 20px;
+//     margin-right: 12px;
+
+// .detail-information{
+//     padding: 20px;
+//     border: 1px solid #00000020;
+//     background-color: #000;
+//     color: #fff;
+//     display: block;
+//     text-align: center;
+//     text-decoration: none;
+// }
+// .area-store{
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+// .area-photo{
+//     // max-width: 30%;
+//     height: 224px;
+// }
+
+// .store-info{
+//     width: 33.33%;
+//     padding: 0 15px;
+//     margin-bottom: 32px;
+//     // margin-right: 30px;
+//     // margin: 0 auto;
+// }
+// .store-info h2{
+//     font-size: 24px;
+//     line-height: 36px;
+//     margin-bottom: 28px;
+// }
+// .store-detail-info li{
+//     margin-bottom: 8px;
+// }
+// .detail-information{
+//     font-size: 19px;
+//     line-height: 27px;
+// }
