@@ -1,0 +1,14 @@
+@media (min-width:816px) and (max-width:1200px){
+
+}
+@mixin pad {
+  @media (min-width: 610px) and (max-width:815px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (min-width: 320px) and (max-width: 609px) {
+    @content;
+  }
+}
